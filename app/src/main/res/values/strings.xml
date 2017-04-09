@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EcoHouse</string>
+    <string name="man.tv.title">Welcome!!</string>
+    <string name="man.tv.subtitle">Try to change  \n the world!</string>
+    <string name="signin">Sign In</string>
+    <string name="user">Ingrese su Usuario</string>
+    <string name="password">Ingrese su Contraseña</string>
+    <string name="Login">Ingresar</string>
+    <string name="des">By singing up you confirm that you have read &amp; Blost </string>
+    <string name="privacy"><u>Privacy Policy </u></string>
+    <string name="and">and</string>
+    <string name="cond"><u> Terms &amp; Conditions</u></string>
+</resources>

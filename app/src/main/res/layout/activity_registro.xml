@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main.background"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pre-Inscripcion"
+            android:textSize="@dimen/subtitulo"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-smallcaps"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/coloBackground"
+        android:layout_margin="8dp"
+        android:elevation="100dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <EditText
+                android:id="@+id/etNombres"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ingrese sus Nombres"
+                android:layout_marginTop="15dp"/>
+            <EditText
+                android:id="@+id/etApellidos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ingrese sus apellidos"
+                android:layout_marginTop="15dp"/>
+            <EditText
+                android:id="@+id/etCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ingrese su Correo"
+                android:layout_marginTop="15dp"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/etTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ingrese su telefono"
+                android:layout_marginTop="15dp"
+                android:inputType="phone"/>
+            <EditText
+                android:id="@+id/etNacimiento"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ingrese su fecha de nacimiento"
+                android:layout_marginTop="15dp"
+                android:inputType="date"/>
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="REgistrar"
+                android:background="@color/colorPrimaryDark"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/colorAccent"/>
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

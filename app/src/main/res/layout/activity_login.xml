@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:alpha="0.4">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/man.tv.subtitle"
+            android:textSize="@dimen/subtitulo"
+            android:textColor="#fff"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+        <View
+            android:layout_width="70dp"
+            android:layout_height="5dp"
+            android:background="#FFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signin"
+            android:textSize="25sp"
+            android:textColor="#FFF"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/edtUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/user"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="roboto-regular"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="roboto-regular"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Login"
+            android:background="@drawable/boton"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/btnPreInscrpcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Pre-Inscripcion"
+            android:textColor="#ffff"
+            android:textSize="15dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="80dp"
+            android:drawableLeft = "@drawable/ic_person_add_white_24dp"/>
+
+        <Button
+            android:id="@+id/btnForo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Ingresar Foro"
+            android:textColor="#ffff"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir a Pagina Web"
+            android:gravity="center"
+            android:autoLink="all"
+            android:linksClickable="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="irpaginaweb"
+            android:layout_marginTop="20dp"/>
+          </LinearLayout>
+    </RelativeLayout>
